@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-  color: #00adb5;
+  color: #0052F7;
 }
 
 a {
@@ -26,11 +26,12 @@ a {
 }
 
 a:hover {
-  color: #00adb5;
+  color: #0052F7;
+  font-size: 72px;
 }
 
 .btn-primary {
-  background-color: #00adb5;
+  background-color: #0052F7;
   color: #eeeeee;
   padding: 16px 40px;
   border-radius: 4px;
@@ -38,7 +39,7 @@ a:hover {
 }
 
 .btn-primary:hover {
-  color: #393e46;
+  box-shadow: 4px 4px 16px rgba(200, 200, 200, 0.5)
 }
 
 .container {
