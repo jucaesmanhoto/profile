@@ -19,6 +19,10 @@ h2 {
   color: #0052F7;
 }
 
+h3 {
+  line-height: 0;
+}
+
 a {
   text-decoration: none;
   color: #222831;
@@ -37,7 +41,7 @@ a {
   margin: 24px;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:active {
   /*color: #eeeeee;*/
   background-color: #0052F7;
   box-shadow: 4px 4px 16px rgba(120, 120, 120, 0.5)
@@ -57,6 +61,27 @@ a {
   border-radius: 8px;
 }
 
+.coffee-card {
+  width: 320px;
+  background-color: #eeeeee;
+  margin: 16px auto;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 8px 8px 16px rgba(50, 50, 50, 0.5);
+}
+
+.coffee-card p {
+
+  margin: 0 36px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+#social-card {
+  height: 400px;
+}
 .flip-avatar {
   /*background-color: transparent;*/
   margin: 0 auto;
@@ -108,23 +133,26 @@ a {
 }
 
 #social-links {
+  height: 80px;
   list-style: none;
-  padding: 0;
+  /*margin: 32px;*/
   display: inline-flex;
 }
 
 #social-links > li {
+  float: right;
   margin: 0 24px;
   font-size: 64px;
 }
 
 #social-links a:hover {
-  font-size: 72px;
+  font-size: 92px;
   color: #0052F7;
 }
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
+
   .container {
     width: 90vw;
     margin: 0 auto;
@@ -139,7 +167,8 @@ a {
   /* For a screen < 720px, this CSS will be read */
 
   #social-links {
-    display: block;
+    display: grid;
+    height: 400px;
   }
 
   #social-links > li {
