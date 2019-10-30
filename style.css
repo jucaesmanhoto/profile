@@ -118,8 +118,9 @@ a {
   font-size: 64px;
 }
 
-#social-links:hover a {
+#social-links a:hover {
   font-size: 72px;
+  color: #0052F7;
 }
 
 @media (max-width: 960px) {
