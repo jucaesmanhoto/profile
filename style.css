@@ -7,6 +7,7 @@ body {
   font-size: 24px;
   line-height: 32px;
   text-align: center;
+  margin: 0;
 }
 
 h1 {
@@ -41,14 +42,13 @@ a:hover {
 }
 
 .container {
-  margin: 48px;
   padding: 48px;
   text-align: center;
   position: relative;
 }
 
 .card {
-  margin: 24px auto;
+  margin: 16px auto;
   padding: 48px;
   background-color: white;
   box-shadow: 8px 8px 16px rgba(50, 50, 50, 0.5);
