@@ -62,7 +62,7 @@ a {
 }
 
 .coffee-card {
-  width: 320px;
+  width: 90%;
   background-color: #eeeeee;
   margin: 16px auto;
   padding: 16px;
@@ -71,7 +71,6 @@ a {
 }
 
 .coffee-card p {
-
   margin: 0 36px;
 }
 
@@ -137,6 +136,7 @@ a {
   list-style: none;
   /*margin: 32px;*/
   display: inline-flex;
+  padding: 0;
 }
 
 #social-links > li {
