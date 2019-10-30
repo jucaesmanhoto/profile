@@ -17,6 +17,7 @@ h1 {
 
 h2 {
   color: #0052F7;
+  line-height: 40px;
 }
 
 h3 {
@@ -117,7 +118,7 @@ a {
 
 .avatar {
   margin: 16px;
-  height: 200px;
+  height: 160px;
   border-radius: 50%;
 }
 
