@@ -25,13 +25,12 @@ a {
 
 }
 
-a:hover {
+/*a:hover {
   color: #0052F7;
-  font-size: 72px;
-}
+}*/
 
 .btn-primary {
-  background-color: #0052F7;
+  background-color: #393e46;
   color: #eeeeee;
   padding: 16px 40px;
   border-radius: 4px;
@@ -39,7 +38,9 @@ a:hover {
 }
 
 .btn-primary:hover {
-  box-shadow: 4px 4px 16px rgba(200, 200, 200, 0.5)
+  /*color: #eeeeee;*/
+  background-color: #0052F7;
+  box-shadow: 4px 4px 16px rgba(120, 120, 120, 0.5)
 }
 
 .container {
@@ -115,6 +116,10 @@ a:hover {
 #social-links > li {
   margin: 0 24px;
   font-size: 64px;
+}
+
+#social-links:hover a {
+  font-size: 72px;
 }
 
 @media (max-width: 960px) {
