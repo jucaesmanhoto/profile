@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Cabin&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');*/
+body {
+  background-color: #393e46;
+  font-family: 'Montserrat', sans-serif;
+  color: #222831;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Cabin', sans-serif;
+  line-height: 64px;
+}
+
+h2 {
+  color: #00adb5;
+}
+
+a {
+  text-decoration: none;
+  color: #222831;
+
+}
+
+a:hover {
+  color: #00adb5;
+}
+
+.btn-primary {
+  background-color: #00adb5;
+  color: #eeeeee;
+  padding: 16px 40px;
+  border-radius: 4px;
+  margin: 24px;
+}
+
+.btn-primary:hover {
+  color: #393e46;
+}
+
+.container {
+  margin: 48px;
+  padding: 48px;
+  text-align: center;
+  position: relative;
+}
+
+.card {
+  margin: 24px auto;
+  padding: 48px;
+  background-color: white;
+  box-shadow: 8px 8px 16px rgba(50, 50, 50, 0.5);
+  border-radius: 8px;
+}
+
+.avatar {
+  margin: 16px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#description {
+  font-size: 28px;
+  line-height: 40px;
+  padding: 32px 80px;
+}
+
+#social-links {
+  list-style: none;
+  padding: 0;
+  display: inline-flex;
+}
+
+#social-links > li {
+  margin: 0 24px;
+  font-size: 64px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  #description {
+    padding: 16px 16px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+
+  #social-links {
+    display: block;
+  }
+
+  #social-links > li {
+    margin: 0 24px;
+    line-height: 88px;
+  }
+
+  .btn-primary {
+    display: block;
+  }
+}
+@media (max-width: 540px) {
+
+  #description {
+    padding: 16px 16px;
+  }
+}
